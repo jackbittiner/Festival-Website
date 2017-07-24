@@ -21,6 +21,11 @@ scotchApp.config(function($routeProvider) {
     .when('/contact', {
       templateUrl : 'pages/contact.html',
       controller  : 'contactController'
+    })
+
+    .when('/gallery', {
+      templateUrl : 'pages/gallery.html',
+      controller  : 'galleryController'
     });
 });
 
@@ -36,4 +41,8 @@ scotchApp.controller('aboutController', function($scope) {
 
 scotchApp.controller('contactController', function($scope) {
   $scope.message = 'This is the contact page!';
+});
+
+scotchApp.controller('galleryController', function($scope) {
+  $scope.message = 'This is the gallery page!';
 });
