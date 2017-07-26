@@ -1,7 +1,5 @@
-// create the module and name it scotchApp
 var scotchApp = angular.module('scotchApp', ['ngRoute']);
 
-// configure our routes
 scotchApp.config(function($routeProvider) {
   $routeProvider
 
@@ -11,38 +9,84 @@ scotchApp.config(function($routeProvider) {
       controller  : 'mainController'
     })
 
-    // route for the about page
-    .when('/about', {
-      templateUrl : 'pages/about.html',
-      controller  : 'aboutController'
+    // routes for the about pages
+    .when('/about/the-idea', {
+      templateUrl : 'pages/about/the-idea.html',
+      controller  : 'theIdeaController'
     })
 
-    // route for the contact page
-    .when('/contact', {
-      templateUrl : 'pages/contact.html',
-      controller  : 'contactController'
+    .when('/about/previous-years', {
+      templateUrl : 'pages/about/previous-years.html',
+      controller  : 'previousYearsController'
     })
 
-    .when('/gallery', {
-      templateUrl : 'pages/gallery.html',
-      controller  : 'galleryController'
+    .when('/about/the-team', {
+      templateUrl : 'pages/about/the-team.html',
+      controller  : 'theTeamController'
+    })
+
+    // route for the 2017 pages
+    .when('/2017/theme', {
+      templateUrl : 'pages/2017/theme.html',
+      controller  : 'themeController'
+    })
+
+    .when('/2017/host', {
+      templateUrl : 'pages/2017/host.html',
+      controller  : 'hostController'
+    })
+
+    .when('/2017/artists', {
+      templateUrl : 'pages/2017/artists.html',
+      controller  : 'artistController'
+    })
+
+    .when('/2017/schedule', {
+      templateUrl : 'pages/2017/schedule.html',
+      controller  : 'scheduleController'
+    })
+
+    // route for the opportunities
+    .when('/opportunities', {
+      templateUrl : 'pages/opportunities.html',
+      controller  : 'opportunitiesController'
     });
+
 });
 
-// create the controller and inject Angular's $scope
+
 scotchApp.controller('mainController', function($scope) {
-  // create a message to display in our view
   $scope.message = 'This is the home page!';
 });
 
-scotchApp.controller('aboutController', function($scope) {
-  $scope.message = 'This is the about page!';
+scotchApp.controller('theIdeaController', function($scope) {
+  $scope.message = 'This will showcase the idea!';
 });
 
-scotchApp.controller('contactController', function($scope) {
-  $scope.message = 'This is the contact page!';
+scotchApp.controller('previousYearsController', function($scope) {
+  $scope.message = 'This will show what happened previous years!';
 });
 
-scotchApp.controller('galleryController', function($scope) {
-  $scope.message = 'This is the gallery page!';
+scotchApp.controller('theTeamController', function($scope) {
+  $scope.message = 'This will show Ruta!';
+});
+
+scotchApp.controller('themeController', function($scope) {
+  $scope.message = 'This is the theme!';
+});
+
+scotchApp.controller('hostController', function($scope) {
+  $scope.message = 'This is the host!';
+});
+
+scotchApp.controller('artistController', function($scope) {
+  $scope.message = 'These are the artists!';
+});
+
+scotchApp.controller('scheduleController', function($scope) {
+  $scope.message = 'This is the schedule!';
+});
+
+scotchApp.controller('opportunitiesController', function($scope) {
+  $scope.message = 'Look at these lovely opportunities!';
 });
