@@ -42,3 +42,17 @@
 }
 
 .dropdown-content a:hover {background-color: #bababa}
+
+
+.artvanguard {
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+    max-height: 300px;
+    max-width: 600px;
+}
+
+.page-text {
+  margin-left: 10px
+}
