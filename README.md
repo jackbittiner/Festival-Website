@@ -1,7 +1,6 @@
 ## Free for Arts Festival
 
-Free for Arts Festival is an annual event in Manchester, where different people
-host and organise year on year.
+Free for Arts Festival is an annual event in Manchester, where different people host and organise it year on year.
 
 My friend Ruta is organising it this year and, as the festival has
 never had a website before, has asked me to rustle up a quick
@@ -16,7 +15,7 @@ Then I was left to my own devices!
 
 #### What I decided to do
 
-I chose to make it a single page application, as it feels so much
+I chose to design it as a single page application, as it feels so much
 smoother to navigate around the site. To do this I used Angular to
 handle all of the routing, without ever refreshing or loading a new page.
 The rest is simply html, css, and bootstrap! So Simple!
@@ -55,6 +54,9 @@ http-server
 As you can see from the webpage, it is looking a little empty and sad.
 I'm currently waiting on Ruta to send over all the information and pictures
 that she wants on the website.
+
+Also probably a big refactor. I know this is a project that only I will ever
+touch, I still don't like how messy some of the HTML is.
 
 #### Shameless Promotion for a Good Friend
 
