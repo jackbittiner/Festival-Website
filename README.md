@@ -58,6 +58,9 @@ that she wants on the website.
 Also probably a big refactor. I know this is a project that only I will ever
 touch, I still don't like how messy some of the HTML is.
 
+Once it is complete! Ruta is going to buy a domain name and then we're going
+to push it live, probably to Heroku.
+
 #### Shameless Promotion for a Good Friend
 
 Come to the festival! It's going to be great!
