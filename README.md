@@ -19,7 +19,7 @@ Then I was left to my own devices!
 I chose to make it a single page application, as it feels so much
 smoother to navigate around the site. To do this I used Angular to
 handle all of the routing, without ever refreshing or loading a new page.
-The rest is simply html, css, and bootstrap! So Simple
+The rest is simply html, css, and bootstrap! So Simple!
 
 #### How to run?
 
@@ -49,3 +49,13 @@ Then to run to application, run the command:
 ```
 http-server
 ```
+
+#### What next?
+
+As you can see from the webpage, it is looking a little empty and sad.
+I'm currently waiting on Ruta to send over all the information and pictures
+that she wants on the website.
+
+#### Shameless Promotion for a Good Friend
+
+Come to the festival! It's going to be great!
