@@ -56,37 +56,37 @@ scotchApp.config(function($routeProvider) {
 
 
 scotchApp.controller('mainController', function($scope) {
-  $scope.message = 'This is the home page!';
+  $scope.message = 'Free For Arts Festival!';
 });
 
 scotchApp.controller('theIdeaController', function($scope) {
-  $scope.message = 'This will showcase the idea!';
+  $scope.message = 'The Big Idea!';
 });
 
 scotchApp.controller('previousYearsController', function($scope) {
-  $scope.message = 'This will show what happened previous years!';
+  $scope.message = 'Previous Years!';
 });
 
 scotchApp.controller('theTeamController', function($scope) {
-  $scope.message = 'This will show Ruta!';
+  $scope.message = 'Meet the Team!';
 });
 
 scotchApp.controller('themeController', function($scope) {
-  $scope.message = 'This is the theme!';
+  $scope.message = "This Year's Theme!";
 });
 
 scotchApp.controller('hostController', function($scope) {
-  $scope.message = 'This is the host!';
+  $scope.message = 'Meet the Hosts!';
 });
 
 scotchApp.controller('artistController', function($scope) {
-  $scope.message = 'These are the artists!';
+  $scope.message = 'Artists Involved!';
 });
 
 scotchApp.controller('scheduleController', function($scope) {
-  $scope.message = 'This is the schedule!';
+  $scope.message = '2017 Schedule!';
 });
 
 scotchApp.controller('opportunitiesController', function($scope) {
-  $scope.message = 'Look at these lovely opportunities!';
+  $scope.message = 'Opportunities!';
 });
