@@ -56,3 +56,34 @@
 .page-text {
   margin-left: 10px
 }
+
+body {
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.navbar {
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.panel-default{
+ position:fixed;
+ bottom:0;
+ left:0;
+}
