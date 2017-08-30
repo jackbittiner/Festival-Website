@@ -90,19 +90,10 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
 
 
 
-div.swirlDiv img{
-	height:500px;
-}
-.menuSwirl{
-	position:static;
-	top:28px;
-	left:180px;
-	cursor:pointer;
-  	-webkit-transition: -webkit-transform 20s ease-in-out,height 0.3s,left 0.3s,top 0.3s;
-  	transition: transform 20s ease-in-out,height 0.3s,left 0.3s,top 0.3s;
-}
 
-.menuSwirl:hover {
-  	-webkit-transform: rotate(720deg) scale(15);
-  	transform: rotate(720deg) scale(15);
+div.swirlDiv img{
+  width:30%;
+  height:auto;
+  margin-left:15%;
+  padding-top: 5%
 }
