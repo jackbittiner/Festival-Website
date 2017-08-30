@@ -87,26 +87,3 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
  bottom:0;
  left:0;
 }
-
-
-
-
-
-.homepage {
-  display: flex;
-}
-.swirlDiv {
-  flex: 0 0 65%;
-}
-.intro-text {
-  flex: 1;
-  margin-top: 10%;
-}
-
-.logo-image {
-  width:50%;
-  height:auto;
-  margin-left:15%;
-  padding-top: 5%;
-  float: left;
-}

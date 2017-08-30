@@ -1,0 +1,26 @@
+.homepage {
+  display: flex;
+}
+.swirlDiv {
+  flex: 0 0 50%;
+}
+.intro-text {
+  flex: 1;
+  margin-top: 10%;
+}
+
+.logo-image {
+  width:60%;
+  height:auto;
+  margin-left:15%;
+  padding-top: 5%;
+  float: left;
+}
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+  font-family: helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: .9em;
+}
